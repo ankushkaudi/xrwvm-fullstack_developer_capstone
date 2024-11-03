@@ -8,7 +8,7 @@ sia = SentimentIntensityAnalyzer()
 
 @app.get('/')
 def home():
-    return "Welcome to the Sentiment Analyzer. \"
+    return "Welcome to the Sentiment Analyzer."
 #    Use /analyze/text to get the sentiment"
 
 
